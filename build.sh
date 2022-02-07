@@ -1,4 +1,5 @@
 pandoc src/main.md \
-	-o build/document.pdf \
-	--template templates/eisvogel.tex \
-	--number-sections
+	--output=out/main.pdf \
+	--template=templates/eisvogel.tex \
+	--number-sections \
+	--pdf-engine=tectonic

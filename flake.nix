@@ -9,7 +9,7 @@
   in rec {
     devShell.x86_64-linux = pkgs.mkShell { buildInputs = [
       pkgs.pandoc
-      pkgs.texlive.combined.scheme-medium
+      pkgs.tectonic
     ]; };
   };
 }
